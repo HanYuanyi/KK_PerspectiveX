@@ -34,7 +34,7 @@ namespace PerspectiveX
         B,
     }
 
-    [BepInPlugin("bucky.kk.perspectivex", "PerspectiveX", "1.3.4")]
+    [BepInPlugin("bucky.kk.perspectivex", "PerspectiveX", "1.3.5")]
     [BepInIncompatibility("keelhauled.realpov")]
     public class PerspectiveXPlugin : BaseUnityPlugin
     {
@@ -1742,7 +1742,7 @@ namespace PerspectiveX
 
         public const string GUID = "bucky.kk.perspectivex";
         public const string PluginName = "PerspectiveX";
-        public const string Version = "1.3.4";
+        public const string Version = "1.3.5";
 
         private const int ViewSlotCount = 3;
         private ConfigEntry<KeyboardShortcut>[] saveSlotKeys;
